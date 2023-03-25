@@ -35,6 +35,9 @@ body{
 .right-container{
     width: 50%;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .right-container .myform{
     background-color: white;
@@ -96,4 +99,16 @@ input:focus{
     text-decoration: none;
     text-align: center;
     margin-top: 10px;
+}
+.right-container p{
+    font-size: 14px;
+    color: #1c1e21;
+    margin-left: 50px;
+    width: 400px;
+    text-align: center;
+}
+.right-container p a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #1c1e21;
 }

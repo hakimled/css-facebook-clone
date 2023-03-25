@@ -38,7 +38,7 @@ body{
 }
 .right-container .myform{
     background-color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     height: 100%;
     width: 60%;
     margin-left: 50px;
@@ -51,6 +51,7 @@ body{
     margin-left: 20px;
     width: 350px;
     height: 40px;
+    padding-left: 20px;
     justify-content: flex-end;
 }
 input[type=submit]{
@@ -60,4 +61,39 @@ input[type=submit]{
     font-size: 20px;
     font-weight: 700;
 
+}
+input.form-group{
+    outline: none;
+    border: 1px solid #d4def3;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+button{
+    width: 230px;
+    border-radius: 7px;
+    margin: auto;
+    height: 40px;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #36a420;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, .5);
+    font-size: 16px;
+    padding-left: 0;
+}
+input:focus{
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+}
+.myform a{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
 }
